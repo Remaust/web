@@ -1,0 +1,150 @@
+html {
+    background-color: #c9a4a9;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 64px 0 50px 0;
+}
+
+.nav-header {
+    margin-bottom: 16px;
+    background-color: #F4D3D3;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.nav-links, p, .film-list li{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.verst-footer p {
+    text-align: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+
+}
+
+.nav-links li a {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+a:link {
+    color: #006EBE;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0B257D;
+}
+
+.nav-links a:hover {
+    background-color: #fff;
+    color: #5EAAE0;
+}
+
+.info {
+    background-color: #E9E9E9;
+    padding: 8px;
+    border-radius: 8px;
+    line-height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 16px auto;
+}
+
+figure {
+    max-width: 800px;
+    border-radius: 10px;
+    background-color: #F4D3D3;
+    margin: 0 auto;
+}
+
+figure img {
+    max-width: 640px;
+    margin: 35px 30px 0 30px;
+}
+
+figure figcaption {
+    text-align: center;
+    padding: 10px 0 15px 0;
+    font-family: Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    font-style: italic;
+
+}
+
+.content-wrapper {
+    background-color: #ffffff;
+    padding: 30px 50px;
+    border-radius: 16px 16px 0 0;
+    margin-bottom:0;
+}
+
+#filmography {
+    margin-bottom: 0;
+}
+
+section {
+    margin: 16px auto;
+}
+
+h2 {
+    font-family: Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 8px;
+}
+
+.film-list {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+.film-list li {
+    padding: 10px;
+    border-bottom: 1px solid #C9A5AA;
+    background-color: #FFFFFF;
+}
+
+.film-list li:last-child {
+    border-bottom: none;
+}
+
+.film-list li:nth-child(even) {
+    background-color: #FCE9E9;
+}
+
+.film-list li:first-child {
+    background-color: #FCF5E9;
+}
+
+.verst-footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #F4D3D3;
+    border-radius: 0 0 8px 8px;
+    margin: 0;
+}
