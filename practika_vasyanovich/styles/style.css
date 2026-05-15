@@ -72,6 +72,10 @@ h1 {
     margin: 16px auto;
 }
 
+img {
+    border-radius: 8px;
+}
+
 figure {
     max-width: 800px;
     border-radius: 10px;
