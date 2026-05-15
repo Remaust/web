@@ -31,10 +31,11 @@ body {
 .nav-links {
     list-style-type: none;
     margin: 10px 0;
-    display: flex;
-    justify-content: center;
     gap: 3px;
-
+    text-align: center;
+}
+nav ul li {
+    display: inline;
 }
 
 .nav-links li a {
